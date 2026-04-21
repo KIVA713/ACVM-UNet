@@ -1,3 +1,6 @@
+# Copyright 2025 LI ZETONG
+# Licensed under the Apache License, Version 2.0
+# Based on VM-UNet (Copyright 2024 Jiacheng Ruan)
 import time
 import math
 from functools import partial
