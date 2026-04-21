@@ -1,6 +1,7 @@
 # ACVM-UNet
 ACVM-UNet:Adaptive Content-Aware Vision Mamba for Medical Image Segmentation
 
+# Abstract
 We proposes ACVM-UNet, an improved network for medical image segmentation. Building upon the VM-UNet framework, the proposed method introduces the RCARAFE (Residual Content-Aware ReAssembly of FEatures) upsampling module and the AMVSSBLOCK (Adaptive Multi-scale Visual State Space Block) for multi-scale feature modeling. RCARAFE enhances local neighborhood information interaction through a content-aware reassembly mechanism and incorporates a residual interpolation branch to restore spatial continuity, effectively addressing boundary blurring and structural fragmentation. Meanwhile, AMVSSBLOCK strengthens feature representation across different receptive fields via parallel multi-scale convolutions and an adaptive weight fusion mechanism, thereby improving the model's generalization capability.
 
 <img width="1115" height="1142" alt="image" src="https://github.com/user-attachments/assets/259296cd-2cb7-4f3c-b761-b8787e2f2c28" />
