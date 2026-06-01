@@ -37,6 +37,37 @@ packaging
 The weights of the pre-trained VMamba could be downloaded from [Baidu](https://pan.baidu.com/s/1ci_YvPPEiUT2bIIK5x8Igw?pwd=wnyy#list/path=%2F) or [GoogleDrive](https://drive.google.com/drive/folders/1ZJjc7sdyd-6KfI7c8R6rDN8bcTz3QkCx).
 
 
+## 1. Prepare the dataset
+
+### ISIC Datasets (Skin Lesion)
+* The ISIC2017 and ISIC2018 datasets, divided into a 7:3 ratio, can be found here [Baidu](https://pan.baidu.com/你的链接) or [GoogleDrive](https://drive.google.com/你的链接).
+* After downloading the datasets, you are supposed to put them into `./data/isic2017/` and `./data/isic2018/`, and the file format reference is as follows. (take the ISIC2017 dataset as an example.)
+* `./data/isic2017/`
+    * train
+        * images
+            * .png
+        * masks
+            * .png
+    * val
+        * images
+            * .png
+        * masks
+            * .png
+
+### Polyp Datasets
+* The four polyp datasets (**Kvasir-SEG**, **CVC-ColonDB**, **ETIS-LaribPolypDB**, and **CVC-ClinicDB**) can be downloaded from [Baidu](https://pan.baidu.com/你的链接) or [GoogleDrive](https://drive.google.com/你的链接).
+* After downloading, you are supposed to organize them into their respective folders under `./data/`. The file format reference is as follows. (take the Kvasir-SEG dataset as an example.)
+* `./data/Kvasir-SEG/`
+    * train
+        * images
+            * .png
+        * masks
+            * .png
+    * val
+        * images
+            * .png
+        * masks
+            * .png
   
 # Train the VM-UNet
 <pre>
