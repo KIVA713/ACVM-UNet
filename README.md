@@ -43,6 +43,10 @@ The weights of the pre-trained VMamba could be downloaded from [Baidu](https://p
 cd ACVM-UNet
 python train.py
 </pre>
+
+# Check Results
+You can find the trained weights and segmentation result images in the `result` folder.
+
 # Citation
 <pre>
 If you find our work helpful, please consider citing:
