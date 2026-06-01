@@ -32,6 +32,12 @@ termcolor
 packaging
   </pre>
 
+# Prepare the pre_trained weights
+<pre>
+The weights of the pre-trained VMamba could be downloaded from [Baidu](https://pan.baidu.com/s/1ci_YvPPEiUT2bIIK5x8Igw?pwd=wnyy#list/path=%2F) or [GoogleDrive](https://drive.google.com/drive/folders/1ZJjc7sdyd-6KfI7c8R6rDN8bcTz3QkCx).
+</pre>
+
+  
 # Train the VM-UNet
 <pre>
 cd ACVM-UNet
